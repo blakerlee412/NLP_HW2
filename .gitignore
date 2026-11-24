@@ -1,0 +1,14 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+*token*
+# Dataset question text and full prompt text are not uploaded.
+data/kmmlu_160.csv
+data/experiment_1280.csv
+data/experiment_1280.jsonl
+results/random_failure_examples.csv
+# Generated model weights and caches
+.cache/
+*.safetensors

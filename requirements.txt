@@ -1,0 +1,13 @@
+# Main Colab inference dependencies (direct pinned versions used in the original notebook)
+transformers==4.51.3
+datasets==3.5.0
+accelerate==1.6.0
+# Other imports used; versions depend on Colab's preinstalled environment
+huggingface_hub
+numpy
+pandas
+scipy
+matplotlib
+tqdm
+# Install a CUDA-compatible PyTorch following the chosen runtime's instructions.
+# The original run used Colab's torch 2.14.1+cu130 (as reported by the user).
